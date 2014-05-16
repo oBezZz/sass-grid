@@ -1,0 +1,32 @@
+html {
+	font-size: 100%;
+}
+
+body {
+	font: #{$font_size_default}/#{$font_line_height_default} $font_family_default;
+	color: $color_blue_dark;
+}
+
+h1 {
+	font-size: round($font_size_default*4);
+}
+
+h2 {
+	font-size: round($font_size_default*3);
+}
+
+h3 {
+	font-size: round($font_size_default*2.5);
+}
+
+h4 {
+	font-size: round($font_size_default*2);
+}
+
+h5 {
+	font-size: round($font_size_default*1.5);
+}
+
+h6 {
+	font-size: round($font_size_default*1.2);
+}

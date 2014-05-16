@@ -1,0 +1,6 @@
+.container {
+	width: $container_size;
+	@if $website_centered == true {
+		margin: 0 auto;
+	}
+}
