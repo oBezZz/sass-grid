@@ -3,4 +3,7 @@
 	@if $website_centered == true {
 		margin: 0 auto;
 	}
+	.col1 {
+		width: $column_width;
+	}
 }

@@ -16,3 +16,6 @@ $color_grey_super_light: #F8FAFF;
 // Grid
 $website_centered: true;
 $container_size: 980px;
+$columns_number: 12;
+$column_width: round(( $container_size - (($columns_number - 1) * $font_size_default)) / $columns_number); // set column width
+$gutter-width: $font_size_default; // set gutter width
